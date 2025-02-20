@@ -11,10 +11,16 @@ Este repositório contém um projeto de **Análise de Sentimentos** utilizando o
 
 ## 🚀 Passo a Passo do Processo  
 
-### 1️⃣ Configuração do Ambiente  
-1. Criar um recurso **Cognitive Services** no **Azure Portal**.  
-2. Ativar o serviço de **Language Service**.  
-3. Obter as **chaves de acesso** e o **endpoint** para uso nas requisições.  
+### 1️⃣ Configuração do Ambiente
+- Acesse o [Portal do Azure](https://portal.azure.com/#home) e faça login na sua conta.
+- Clique em **Criar um Recurso** e selecione **Cognitive Services**.
+- Preencha as informações necessárias:
+  - Escolha um grupo de recursos existente ou crie um novo.
+  - Nomeie o recurso de forma única (ex: `sentiment-analysis-resource`).
+  - Selecione a região e defina o **Pricing Tier** como **Free F0**.
+  - Marque a caixa de responsabilidade de IA.
+- Clique em **Review + Create** para validar e depois em **Create** para finalizar a criação do recurso.
+- Vá para o [Language Studio](https://language.cognitive.azure.com/) e vincule seu recurso para começar a análise de sentimentos.  
 
 ### 2️⃣ Análise de Sentimentos  
 - Utilizamos o **Language Studio** do Azure para analisar o sentimento das frases.  
